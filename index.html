@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio personal de desarrollador web frontend especializado en HTML, CSS y JavaScript">
+    <meta name="author" content="Anselmo">
+    <meta name="keywords" content="desarrollador web, frontend, portfolio, HTML, CSS, JavaScript, diseño web">
+    <title>Mi Portafolio | Desarrollador de Software</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>DevPortfolio</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre-mi">Sobre Mí</a></li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h2>Hola, soy <span class="highlight">Anselmo Del Hoyo</span></h2>
+                <p class="hero-subtitle">Desarrollador Web</p>
+                <p class="hero-description">Creando experiencias digitales únicas y funcionales</p>
+                <a href="#portafolio" class="cta-button">Ver mis proyectos</a>
+            </div>
+        </section>
+
+        <!-- Sobre Mí Section -->
+        <section id="sobre-mi" class="about">
+            <div class="container">
+                <h2 class="section-title">Sobre Mí</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <div class="placeholder-image">👨‍💻</div>
+                    </div>
+                    <div class="about-text">
+                        <p>Soy un desarrollador web apasionado por crear sitios web modernos y funcionales. Con experiencia en diseño responsive y las últimas tecnologías frontend, me especializo en transformar ideas en experiencias digitales atractivas.</p>
+                        <p>Mi enfoque se centra en escribir código limpio, seguir las mejores prácticas y crear interfaces intuitivas que los usuarios adoren. Siempre estoy aprendiendo nuevas tecnologías y mejorando mis habilidades.</p>
+                        <div class="skills">
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Responsive Design</span>
+                            <span class="skill-tag">Git</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portafolio Section -->
+        <section id="portafolio" class="portfolio">
+            <div class="container">
+                <h2 class="section-title">Mis Proyectos</h2>
+                <div class="portfolio-grid">
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="placeholder-project">🌐</div>
+                        </div>
+                        <div class="project-info">
+                            <h3>E-commerce Moderno</h3>
+                            <p>Tienda online responsive con carrito de compras y sistema de filtros avanzado. Diseño minimalista y experiencia de usuario optimizada.</p>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Grid</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="placeholder-project">📱</div>
+                        </div>
+                        <div class="project-info">
+                            <h3>App Dashboard</h3>
+                            <p>Panel de administración interactivo con gráficos y estadísticas en tiempo real. Interfaz limpia y profesional para gestión de datos.</p>
+                            <div class="project-tags">
+                                <span>CSS Grid</span>
+                                <span>Flexbox</span>
+                                <span>Responsive</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="placeholder-project">🎨</div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Portfolio Creativo</h3>
+                            <p>Sitio web para artista visual con galería de imágenes y animaciones suaves. Diseño elegante que resalta el trabajo creativo.</p>
+                            <div class="project-tags">
+                                <span>Animations</span>
+                                <span>Mobile First</span>
+                                <span>CSS</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="placeholder-project">☕</div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Landing Page Café</h3>
+                            <p>Página de aterrizaje para cafetería local con menú interactivo y sistema de reservas. Diseño cálido y acogedor.</p>
+                            <div class="project-tags">
+                                <span>HTML5</span>
+                                <span>Forms</span>
+                                <span>CSS3</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacto Section -->
+        <section id="contacto" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contacto</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>¿Tienes un proyecto en mente?</h3>
+                        <p>Estoy disponible para nuevos proyectos y colaboraciones. No dudes en contactarme y hablemos sobre cómo puedo ayudarte.</p>
+                        <div class="contact-details">
+                            <p>📧 anselmo.hoyo@email.com</p>
+                            <p>📱 +34 600 123 456</p>
+                            <p>📍 Madrid, España</p>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntame sobre tu proyecto..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Anselmo Del Hoyo. Todos los derechos reservados.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="GitHub">GitHub</a>
+                    <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                    <a href="#" aria-label="Twitter">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
